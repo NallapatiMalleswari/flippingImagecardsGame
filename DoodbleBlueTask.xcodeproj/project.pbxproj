@@ -1,0 +1,459 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 48;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		1122047920B80C5E0053AFD2 /* AppDelegate.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122047820B80C5E0053AFD2 /* AppDelegate.swift */; };
+		1122047E20B80C5E0053AFD2 /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1122047C20B80C5E0053AFD2 /* Main.storyboard */; };
+		1122048120B80C5E0053AFD2 /* DoodbleBlueTask.xcdatamodeld in Sources */ = {isa = PBXBuildFile; fileRef = 1122047F20B80C5E0053AFD2 /* DoodbleBlueTask.xcdatamodeld */; };
+		1122048320B80C5F0053AFD2 /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 1122048220B80C5F0053AFD2 /* Assets.xcassets */; };
+		1122048620B80C5F0053AFD2 /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 1122048420B80C5F0053AFD2 /* LaunchScreen.storyboard */; };
+		1122049020B80D850053AFD2 /* XMLParserHelper.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122048F20B80D850053AFD2 /* XMLParserHelper.swift */; };
+		1122049220B80DF00053AFD2 /* GameCollectionViewController.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122049120B80DF00053AFD2 /* GameCollectionViewController.swift */; };
+		1122049420B80E970053AFD2 /* CollectionViewCell.swift in Sources */ = {isa = PBXBuildFile; fileRef = 1122049320B80E970053AFD2 /* CollectionViewCell.swift */; };
+		23F257D820B8780300E42B22 /* success.png in Resources */ = {isa = PBXBuildFile; fileRef = 23F257D720B8780300E42B22 /* success.png */; };
+		7102803520BA63A200432A47 /* Reachability.swift in Sources */ = {isa = PBXBuildFile; fileRef = 7102803420BA63A200432A47 /* Reachability.swift */; };
+		7A23AA2D33B5EEA12E6394A2 /* Pods_DoodbleBlueTask.framework in Frameworks */ = {isa = PBXBuildFile; fileRef = 5D7F3A09C9F38F17E6368338 /* Pods_DoodbleBlueTask.framework */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		1122047520B80C5E0053AFD2 /* DoodbleBlueTask.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = DoodbleBlueTask.app; sourceTree = BUILT_PRODUCTS_DIR; };
+		1122047820B80C5E0053AFD2 /* AppDelegate.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = AppDelegate.swift; sourceTree = "<group>"; };
+		1122047D20B80C5E0053AFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		1122048020B80C5E0053AFD2 /* DoodbleBlueTask.xcdatamodel */ = {isa = PBXFileReference; lastKnownFileType = wrapper.xcdatamodel; path = DoodbleBlueTask.xcdatamodel; sourceTree = "<group>"; };
+		1122048220B80C5F0053AFD2 /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		1122048520B80C5F0053AFD2 /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		1122048720B80C5F0053AFD2 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		1122048F20B80D850053AFD2 /* XMLParserHelper.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = XMLParserHelper.swift; sourceTree = "<group>"; };
+		1122049120B80DF00053AFD2 /* GameCollectionViewController.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = GameCollectionViewController.swift; sourceTree = "<group>"; };
+		1122049320B80E970053AFD2 /* CollectionViewCell.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = CollectionViewCell.swift; sourceTree = "<group>"; };
+		23F257D720B8780300E42B22 /* success.png */ = {isa = PBXFileReference; lastKnownFileType = image.png; path = success.png; sourceTree = "<group>"; };
+		5D7F3A09C9F38F17E6368338 /* Pods_DoodbleBlueTask.framework */ = {isa = PBXFileReference; explicitFileType = wrapper.framework; includeInIndex = 0; path = Pods_DoodbleBlueTask.framework; sourceTree = BUILT_PRODUCTS_DIR; };
+		7102803420BA63A200432A47 /* Reachability.swift */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.swift; path = Reachability.swift; sourceTree = "<group>"; };
+		7CE17AB027B6492CB88C3D57 /* Pods-DoodbleBlueTask.debug.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoodbleBlueTask.debug.xcconfig"; path = "Pods/Target Support Files/Pods-DoodbleBlueTask/Pods-DoodbleBlueTask.debug.xcconfig"; sourceTree = "<group>"; };
+		D2A02DA823CB2D63343D9D6B /* Pods-DoodbleBlueTask.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-DoodbleBlueTask.release.xcconfig"; path = "Pods/Target Support Files/Pods-DoodbleBlueTask/Pods-DoodbleBlueTask.release.xcconfig"; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		1122047220B80C5E0053AFD2 /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				7A23AA2D33B5EEA12E6394A2 /* Pods_DoodbleBlueTask.framework in Frameworks */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		1122046C20B80C5E0053AFD2 = {
+			isa = PBXGroup;
+			children = (
+				1122047720B80C5E0053AFD2 /* DoodbleBlueTask */,
+				1122047620B80C5E0053AFD2 /* Products */,
+				837F350BC83A9FC4BCA99DCD /* Pods */,
+				75910606ACDEC78C751A289E /* Frameworks */,
+			);
+			sourceTree = "<group>";
+		};
+		1122047620B80C5E0053AFD2 /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				1122047520B80C5E0053AFD2 /* DoodbleBlueTask.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		1122047720B80C5E0053AFD2 /* DoodbleBlueTask */ = {
+			isa = PBXGroup;
+			children = (
+				1122047820B80C5E0053AFD2 /* AppDelegate.swift */,
+				1122048E20B80D6C0053AFD2 /* Modal */,
+				1122048D20B80D570053AFD2 /* ViewControllers */,
+				23F257D920B8927B00E42B22 /* Assets */,
+				1122047C20B80C5E0053AFD2 /* Main.storyboard */,
+				1122048220B80C5F0053AFD2 /* Assets.xcassets */,
+				1122048420B80C5F0053AFD2 /* LaunchScreen.storyboard */,
+				1122048720B80C5F0053AFD2 /* Info.plist */,
+				1122047F20B80C5E0053AFD2 /* DoodbleBlueTask.xcdatamodeld */,
+			);
+			path = DoodbleBlueTask;
+			sourceTree = "<group>";
+		};
+		1122048D20B80D570053AFD2 /* ViewControllers */ = {
+			isa = PBXGroup;
+			children = (
+				1122049120B80DF00053AFD2 /* GameCollectionViewController.swift */,
+				1122049320B80E970053AFD2 /* CollectionViewCell.swift */,
+			);
+			path = ViewControllers;
+			sourceTree = "<group>";
+		};
+		1122048E20B80D6C0053AFD2 /* Modal */ = {
+			isa = PBXGroup;
+			children = (
+				1122048F20B80D850053AFD2 /* XMLParserHelper.swift */,
+				7102803420BA63A200432A47 /* Reachability.swift */,
+			);
+			path = Modal;
+			sourceTree = "<group>";
+		};
+		23F257D920B8927B00E42B22 /* Assets */ = {
+			isa = PBXGroup;
+			children = (
+				23F257D720B8780300E42B22 /* success.png */,
+			);
+			path = Assets;
+			sourceTree = "<group>";
+		};
+		75910606ACDEC78C751A289E /* Frameworks */ = {
+			isa = PBXGroup;
+			children = (
+				5D7F3A09C9F38F17E6368338 /* Pods_DoodbleBlueTask.framework */,
+			);
+			name = Frameworks;
+			sourceTree = "<group>";
+		};
+		837F350BC83A9FC4BCA99DCD /* Pods */ = {
+			isa = PBXGroup;
+			children = (
+				7CE17AB027B6492CB88C3D57 /* Pods-DoodbleBlueTask.debug.xcconfig */,
+				D2A02DA823CB2D63343D9D6B /* Pods-DoodbleBlueTask.release.xcconfig */,
+			);
+			name = Pods;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		1122047420B80C5E0053AFD2 /* DoodbleBlueTask */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 1122048A20B80C5F0053AFD2 /* Build configuration list for PBXNativeTarget "DoodbleBlueTask" */;
+			buildPhases = (
+				8A622F081F69474FE319977F /* [CP] Check Pods Manifest.lock */,
+				1122047120B80C5E0053AFD2 /* Sources */,
+				1122047220B80C5E0053AFD2 /* Frameworks */,
+				1122047320B80C5E0053AFD2 /* Resources */,
+				5BA9455168FD2D8B794847DE /* [CP] Embed Pods Frameworks */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = DoodbleBlueTask;
+			productName = DoodbleBlueTask;
+			productReference = 1122047520B80C5E0053AFD2 /* DoodbleBlueTask.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		1122046D20B80C5E0053AFD2 /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastSwiftUpdateCheck = 0930;
+				LastUpgradeCheck = 0930;
+				ORGANIZATIONNAME = Avantari;
+				TargetAttributes = {
+					1122047420B80C5E0053AFD2 = {
+						CreatedOnToolsVersion = 9.3;
+						ProvisioningStyle = Automatic;
+					};
+				};
+			};
+			buildConfigurationList = 1122047020B80C5E0053AFD2 /* Build configuration list for PBXProject "DoodbleBlueTask" */;
+			compatibilityVersion = "Xcode 8.0";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 1122046C20B80C5E0053AFD2;
+			productRefGroup = 1122047620B80C5E0053AFD2 /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				1122047420B80C5E0053AFD2 /* DoodbleBlueTask */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		1122047320B80C5E0053AFD2 /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1122048620B80C5F0053AFD2 /* LaunchScreen.storyboard in Resources */,
+				1122048320B80C5F0053AFD2 /* Assets.xcassets in Resources */,
+				1122047E20B80C5E0053AFD2 /* Main.storyboard in Resources */,
+				23F257D820B8780300E42B22 /* success.png in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXShellScriptBuildPhase section */
+		5BA9455168FD2D8B794847DE /* [CP] Embed Pods Frameworks */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${SRCROOT}/Pods/Target Support Files/Pods-DoodbleBlueTask/Pods-DoodbleBlueTask-frameworks.sh",
+				"${BUILT_PRODUCTS_DIR}/SDWebImage/SDWebImage.framework",
+			);
+			name = "[CP] Embed Pods Frameworks";
+			outputPaths = (
+				"${TARGET_BUILD_DIR}/${FRAMEWORKS_FOLDER_PATH}/SDWebImage.framework",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "\"${SRCROOT}/Pods/Target Support Files/Pods-DoodbleBlueTask/Pods-DoodbleBlueTask-frameworks.sh\"\n";
+			showEnvVarsInLog = 0;
+		};
+		8A622F081F69474FE319977F /* [CP] Check Pods Manifest.lock */ = {
+			isa = PBXShellScriptBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			inputPaths = (
+				"${PODS_PODFILE_DIR_PATH}/Podfile.lock",
+				"${PODS_ROOT}/Manifest.lock",
+			);
+			name = "[CP] Check Pods Manifest.lock";
+			outputPaths = (
+				"$(DERIVED_FILE_DIR)/Pods-DoodbleBlueTask-checkManifestLockResult.txt",
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+			shellPath = /bin/sh;
+			shellScript = "diff \"${PODS_PODFILE_DIR_PATH}/Podfile.lock\" \"${PODS_ROOT}/Manifest.lock\" > /dev/null\nif [ $? != 0 ] ; then\n    # print error to STDERR\n    echo \"error: The sandbox is not in sync with the Podfile.lock. Run 'pod install' or update your CocoaPods installation.\" >&2\n    exit 1\nfi\n# This output is used by Xcode 'outputs' to avoid re-running this script phase.\necho \"SUCCESS\" > \"${SCRIPT_OUTPUT_FILE_0}\"\n";
+			showEnvVarsInLog = 0;
+		};
+/* End PBXShellScriptBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		1122047120B80C5E0053AFD2 /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				1122048120B80C5E0053AFD2 /* DoodbleBlueTask.xcdatamodeld in Sources */,
+				1122049420B80E970053AFD2 /* CollectionViewCell.swift in Sources */,
+				7102803520BA63A200432A47 /* Reachability.swift in Sources */,
+				1122049020B80D850053AFD2 /* XMLParserHelper.swift in Sources */,
+				1122049220B80DF00053AFD2 /* GameCollectionViewController.swift in Sources */,
+				1122047920B80C5E0053AFD2 /* AppDelegate.swift in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		1122047C20B80C5E0053AFD2 /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1122047D20B80C5E0053AFD2 /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		1122048420B80C5F0053AFD2 /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				1122048520B80C5F0053AFD2 /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		1122048820B80C5F0053AFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+				SWIFT_ACTIVE_COMPILATION_CONDITIONS = DEBUG;
+				SWIFT_OPTIMIZATION_LEVEL = "-Onone";
+			};
+			name = Debug;
+		};
+		1122048920B80C5F0053AFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				CODE_SIGN_IDENTITY = "iPhone Developer";
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				SDKROOT = iphoneos;
+				SWIFT_OPTIMIZATION_LEVEL = "-Owholemodule";
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		1122048B20B80C5F0053AFD2 /* Debug */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = 7CE17AB027B6492CB88C3D57 /* Pods-DoodbleBlueTask.debug.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3C9BD2TD6;
+				INFOPLIST_FILE = DoodbleBlueTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = malleswari.DoodbleBlueTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		1122048C20B80C5F0053AFD2 /* Release */ = {
+			isa = XCBuildConfiguration;
+			baseConfigurationReference = D2A02DA823CB2D63343D9D6B /* Pods-DoodbleBlueTask.release.xcconfig */;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = W3C9BD2TD6;
+				INFOPLIST_FILE = DoodbleBlueTask/Info.plist;
+				IPHONEOS_DEPLOYMENT_TARGET = 10.0;
+				LD_RUNPATH_SEARCH_PATHS = "$(inherited) @executable_path/Frameworks";
+				PRODUCT_BUNDLE_IDENTIFIER = malleswari.DoodbleBlueTask;
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				SWIFT_VERSION = 4.0;
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		1122047020B80C5E0053AFD2 /* Build configuration list for PBXProject "DoodbleBlueTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1122048820B80C5F0053AFD2 /* Debug */,
+				1122048920B80C5F0053AFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		1122048A20B80C5F0053AFD2 /* Build configuration list for PBXNativeTarget "DoodbleBlueTask" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				1122048B20B80C5F0053AFD2 /* Debug */,
+				1122048C20B80C5F0053AFD2 /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+
+/* Begin XCVersionGroup section */
+		1122047F20B80C5E0053AFD2 /* DoodbleBlueTask.xcdatamodeld */ = {
+			isa = XCVersionGroup;
+			children = (
+				1122048020B80C5E0053AFD2 /* DoodbleBlueTask.xcdatamodel */,
+			);
+			currentVersion = 1122048020B80C5E0053AFD2 /* DoodbleBlueTask.xcdatamodel */;
+			path = DoodbleBlueTask.xcdatamodeld;
+			sourceTree = "<group>";
+			versionGroupType = wrapper.xcdatamodel;
+		};
+/* End XCVersionGroup section */
+	};
+	rootObject = 1122046D20B80C5E0053AFD2 /* Project object */;
+}
